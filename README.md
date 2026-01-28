@@ -126,7 +126,6 @@ ai-counsellor-mvp/
 │   ├── package.json             # Frontend dependencies
 │   └── next.config.js           # Next.js configuration
 └── README.md                    # This file
-```
 
 ## 🎯 Core Workflows
 
@@ -142,20 +141,7 @@ ai-counsellor-mvp/
 3. AI responds with structured JSON format
 4. Frontend renders appropriate UI based on response type
 
-### Response Format
-```json
-{
-  "thought": "AI analysis of user input and profile",
-  "action": {
-    "type": "recommend_universities|create_task|analyze_profile",
-    "data": {
-      "universities": ["MIT", "Stanford", "Harvard"],
-      "reasoning": "Based on your profile and preferences..."
-    }
-  },
-  "message": "Human-readable message for user interface"
-}
-```
+
 
 ## 🔧 API Endpoints
 
@@ -210,7 +196,7 @@ python main.py
 
 # Run with auto-reload (development)
 uvicorn app.main:app --reload
-```
+
 
 ### Frontend Development
 ```bash
@@ -223,7 +209,7 @@ npm run build
 
 # Start production server
 npm run start
-```
+
 
 ## 🚀 Deployment Options
 
@@ -239,7 +225,7 @@ npm run build
 # Production server
 cd backend
 uvicorn app.main:app --host 0.0.0.0 --port $PORT
-```
+
 
 ## 🔒 Security Features
 
@@ -288,21 +274,16 @@ uvicorn app.main:app --host 0.0.0.0 --port $PORT
 - Check Network tab for API calls
 - Use console.log() for state tracking
 
-## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 🤝 Contributions
+We welcome pull requests! For major changes, please open an issue to discuss what you'd like to improve or add.
 
-## 👥 Contributing
+## 📧 Contact
+**Developer**: Vaibhav
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+**Email**: sahuvaibhav064@gmail.com
 
-## 📧 Support
+**LinkedIn**: https://www.linkedin.com/in/vaibhav-chaudhary-615712272/
 
-For support, please contact the development team or open an issue in the repository.
-
----
-
-Built with ❤️ using Next.js, FastAPI, PostgreSQL, and Google Gemini AI
-
-**Current Status**: Development phase - ready for testing and feature enhancements
-**Last Updated**: January 28, 2026
+## 📜 License
+MIT License © 2025 Vaibhav
