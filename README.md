@@ -126,6 +126,7 @@ ai-counsellor-mvp/
 │   ├── package.json             # Frontend dependencies
 │   └── next.config.js           # Next.js configuration
 └── README.md                    # This file
+```
 
 ## 🎯 Core Workflows
 
@@ -140,7 +141,6 @@ ai-counsellor-mvp/
 2. Backend processes message with Gemini API
 3. AI responds with structured JSON format
 4. Frontend renders appropriate UI based on response type
-
 
 
 ## 🔧 API Endpoints
@@ -185,31 +185,6 @@ ai-counsellor-mvp/
 - **Stage Management**: Locks and unlocks based on completion
 - **Task Creation**: AI generates actionable items
 - **Status Updates**: Real-time progress tracking
-
-## 🧪 Development Commands
-
-### Backend Development
-```bash
-# Run development server
-cd backend
-python main.py
-
-# Run with auto-reload (development)
-uvicorn app.main:app --reload
-
-
-### Frontend Development
-```bash
-# Start development server
-cd frontend
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm run start
-
 
 ## 🧪 Development Commands
 
@@ -312,3 +287,4 @@ We welcome pull requests! For major changes, please open an issue to discuss wha
 
 ## 📜 License
 MIT License © 2025 Vaibhav
+
