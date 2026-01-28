@@ -211,6 +211,31 @@ npm run build
 npm run start
 
 
+## 🧪 Development Commands
+
+### Backend Development
+```bash
+# Run development server
+cd backend
+python main.py
+
+# Run with auto-reload (development)
+uvicorn app.main:app --reload
+```
+
+### Frontend Development
+```bash
+# Start development server
+cd frontend
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm run start
+```
+
 ## 🚀 Deployment Options
 
 ### Frontend (Vercel/Netlify)
@@ -225,7 +250,7 @@ npm run build
 # Production server
 cd backend
 uvicorn app.main:app --host 0.0.0.0 --port $PORT
-
+```
 
 ## 🔒 Security Features
 
